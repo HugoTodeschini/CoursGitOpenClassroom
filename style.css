@@ -1,0 +1,148 @@
+@font-face{
+	font-family: 'Amble' ;
+	src : url('Amble.ttf');
+}
+
+body
+{
+	color: black;
+	background-image: url("fond-gris-degrade.jpg");
+	height: 100%;
+}
+
+h1
+{
+	text-align: center;
+	font-family: 'Amble', Arial, Verdana, sans-serif;
+}
+
+h2
+{
+	color: #3346B5;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+img 
+{
+	box-shadow: 6px 6px 5px black;
+}
+
+a:hover
+
+{
+   color: green;
+}
+
+.principal
+{
+	width: 90%;
+	background-image: url("fond-gris-degrade.jpg");
+	border: 3px black groove;
+}
+
+.eleve
+{
+	margin:auto;
+	text-align: center;
+}
+
+.en-tete
+{
+	width: 100%;
+	margin-bottom: 8%;
+	margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.experience
+{
+	width: 30%;
+}
+
+.competences
+{
+	width: 30%;
+}
+
+.formation
+{
+	width: 30%;
+}
+
+.element1
+{
+	width: 70%;
+}
+
+.corp
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.liseret
+{
+	width: 9.5%;
+	height:700px;
+	background-image: url("fond_noir.jpg");
+}
+
+.body
+{
+	display: flex;
+	min-width: 700px;
+}
+
+@media screen and (max-width: 1024px)
+
+{
+
+    .liseret
+    {
+    	display: none;
+    } 
+
+    .body
+    {
+    	justify-content: space-around;
+    	min-width: 350px;
+    }
+
+    .principal
+	{
+		width: auto;
+		border : none;
+	}
+
+    .corp
+    {
+		flex-direction: column;
+		justify-content: space-around and center;
+
+	}
+
+	.element1
+	{
+		width: auto;
+	}
+
+	.experience
+	{
+		width:auto;
+		text-align: center;
+	}
+
+	.competences
+	{
+		width:auto;
+		text-align: center;
+	}
+
+	.formation
+	{
+		width:auto;
+		text-align: center;
+	}
+
+}
